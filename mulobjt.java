@@ -3,12 +3,12 @@ class Style
 	int id;  
 	String name;  
 	}  
-		class TestStyle1
+	class TestStyle1
 	{  
 		public static void main(String args[])
 		{  
-		Style s1=new Style();  
-		Style s2=new Style();   
+		Style s1 = new Style();  
+		Style s2 = new Style();   
 		s1.id=10;  
 		s1.name="SAI";  
 		s2.id=11;  

@@ -1,14 +1,12 @@
 
-class Student
-	{  
-		int rollno;  
-		String name;  
-		static String college = "svit";  
+class Student{  
+	int rollno;  
+	String name;  
+	static String college = "svit";  
        
-		static void change()
-		{  
-			college = "kmm";  
-		}  
+	static void change(){  
+		college = "kmm";  
+	}  
   
 		Student(int r, String n)
 		{  
@@ -31,4 +29,4 @@ class Student
 			s2.display();  
 			s3.display();  
 		}  
-	}  
+}  

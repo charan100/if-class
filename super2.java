@@ -5,7 +5,7 @@ class Animal{
 }
 class Dog extends Animal{
 	Dog(){
-		super();
+		super(); //super keyword is added in each constructor automatically by compiler if there no super()
 		System.out.println("Dog is created");
 	}
 }

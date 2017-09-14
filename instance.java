@@ -1,7 +1,7 @@
 class Bike{
 	int speed;
 	Bike (){
-		super();
+		//super();    //compiler 
 		System.out.println("Constructor is invoked");
 	}
 	{

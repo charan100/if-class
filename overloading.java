@@ -2,7 +2,7 @@ class Adder{
 	static int add(int a,int b){
 		return a+b;
 	}
-	static double add(double a,double b,double c){  //changing the datatype of arguments
+	static double add(double a,double b,double c){  //changing the datatype of arguments,no.of arguments
 		return a+b+c;
 	}
 	//static int add(int a,int b,int c){  //changing the no.of arguments
